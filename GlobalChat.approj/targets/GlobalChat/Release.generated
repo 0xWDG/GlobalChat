@@ -1,0 +1,190 @@
+{
+    "assets": [
+        {
+            "asset": "GlobalChat/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "GlobalChat/crew.html", 
+            "target": "crew.html"
+        }, 
+        {
+            "asset": "GlobalChat/error.html", 
+            "target": "error.html"
+        }, 
+        {
+            "asset": "GlobalChat/Images.xcassets", 
+            "target": null
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "GlobalChat", 
+        "APPLICATION_IDENTIFIER": "wdgwv.GlobalChat", 
+        "APPLICATION_NAME": "GlobalChat", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "GlobalChat", 
+            "PRODUCT_NAME": "GlobalChat"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreGraphics", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "GlobalChat-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "GlobalChat-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "GlobalChat-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "GlobalChat-project-headers.hmap", 
+            "hmap": {
+                "GCWebViewController.h": {
+                    "key": "GCWebViewController.h", 
+                    "prefix": "./", 
+                    "suffix": "GCWebViewController.h"
+                }, 
+                "GlobalChat-Prefix.pch": {
+                    "key": "GlobalChat-Prefix.pch", 
+                    "prefix": "GlobalChat/", 
+                    "suffix": "GlobalChat-Prefix.pch"
+                }, 
+                "gcAppDelegate.h": {
+                    "key": "gcAppDelegate.h", 
+                    "prefix": "GlobalChat/", 
+                    "suffix": "gcAppDelegate.h"
+                }, 
+                "gcViewController.h": {
+                    "key": "gcViewController.h", 
+                    "prefix": "GlobalChat/", 
+                    "suffix": "gcViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/3t/_9xrwhkx5s95cklwxsgf294m0000gn/T/tmpU4CJnV/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/3t/_9xrwhkx5s95cklwxsgf294m0000gn/T/tmpU4CJnV/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/3t/_9xrwhkx5s95cklwxsgf294m0000gn/T/tmpU4CJnV/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./GlobalChat/GlobalChat-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./GlobalChat/GlobalChat-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GCWebViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GlobalChat/gcAppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GlobalChat/gcViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "GlobalChat/main.m"
+        }
+    ], 
+    "storyboards": [
+        {
+            "storyboard": "GlobalChat/Base.lproj/Main.storyboard", 
+            "target": null
+        }
+    ], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "GlobalChat.xcodeproj", 
+    "xibs": [
+        {
+            "target": null, 
+            "xib": "GCWebViewController.xib"
+        }
+    ]
+}
